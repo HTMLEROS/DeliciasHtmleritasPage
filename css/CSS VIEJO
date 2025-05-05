@@ -1,0 +1,70 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.banner {
+    background-image: url('../img/banner.png');
+    background-size: cover;
+    background-position: center;
+    color: rgb(255, 221, 248);
+    text-align: center;
+    padding: 80px 10px;
+}
+
+.banner h1 {
+    font-size: 3em;
+    margin: 0;
+}
+
+.banner p {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.productos {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    flex-wrap: wrap;
+}
+
+.producto {
+    background-color: #fff1f9;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    width: 30%;
+    padding: 20px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.producto img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.producto h2 {
+    font-size: 1.5em;
+    margin-top: 10px;
+}
+
+.precio {
+    font-size: 1.2em;
+    color: rgb(253, 127, 175);
+    font-weight: bold;
+}
+
+/* Foot página */
+.footer {
+    text-align: center;
+    background-color: #602892;
+    color: #b1b1b1;
+    padding: 10px 0;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}

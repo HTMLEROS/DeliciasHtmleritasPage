@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="es-AR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="rgb(255, 221, 248)">
+    <title>Delicias htmleritas</title>
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link rel="icon" href="img/logo.png" type="image/png">
+    <!-- INTEGRACIÓN JS (el js PRINCIPAL para avisos y funciones de administración) -->
+    <script src="js/jsDeCarga.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+<body>
+    <!-- JS DE INICIALIZACIÓN -->
+    <!--<script>aviso("Hola Ruth, bienvenida a nuestra pagina! (ayuda)")</script>-->
+
+<!--<nav>
+    <ul>
+        <li href="#">Pedir</li>
+        <li href="#">Sobre Nosotros</li>
+    </ul-->
+
+    <!-- El BANNER se modifica en el css ( ayuda :c ) -->
+    <header class="banner">
+    <img alt="Imagen del banner" src="img/logoEnBanner.png"><img>
+        <h1>Delicias Htmleritas</h1>
+    </header>
+
+    <!-- productos -->
+    <main class="productos">
+        <section class="producto">
+            <img src="img/medialuna.png" alt="Medialuna">
+            <h2>medialunas (x12 U.)</h2>
+            <p>Las mejores medialunas de la zona.</p>
+            <p class="precio">$7.000 (12 u.)</p>
+        </section>
+
+        <section class="producto">
+            <img src="img/dona.png" alt="Dona">
+            <h2>Dona</h2>
+            <p>La masa mas esponjosa que vas a probar.</p>
+            <p class="precio">$1100 (1 u.)</p>
+        </section>
+
+        <section class="producto">
+            <img src="img/milhojas.png" alt="Milhojas">
+            <h2>Milhojas</h2>
+            <p>Milhojas. XD.</p>
+            <p class="precio">$200 (1 u.)</p>
+        </section>
+    </main>
+
+    <!-- Pie de página -->
+    <footer class="footer">
+        <p>&copy; 2025 Delicias htmleritas. Todos los derechos reservados.</p>
+    </footer>
+
+    <!-- INTEGRACIÓN JS (este js es el que se carga despues de todo el HTML) -->
+    <script src="js/js.js"></script>
+</body>
+</html>
