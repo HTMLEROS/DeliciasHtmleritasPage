@@ -21,7 +21,7 @@ function mantenimiento(hora) {
 function mantenimiento(error) {
   Swal.fire({
     title: 'ERROR',
-    text: `La página está fuera de servicio. ERR:${error}.`,
+    text: `Algo ha fallado.... ERR:${error}.`,
     icon: 'error',
     confirmButtonText: 'Salir',
     confirmButtonColor: '#3085d6',
@@ -31,6 +31,18 @@ function mantenimiento(error) {
     if (result.isConfirmed) {
       window.location.href = "mantenimiento.html";
     }
+  });
+}
+
+function seccionContruccion(seccion) {
+  Swal.fire({
+    title: 'Algo ha salido mal...',
+    text: `La sección "${seccion}" aún no está disponible.`,
+    icon: 'error',
+    confirmButtonText: 'Volver atrás',
+    confirmButtonColor: '#3085d6',
+    backdrop: true,
+    allowOutsideClick: false
   });
 }
 
